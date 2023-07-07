@@ -95,11 +95,3 @@ WHERE Obtained_number < 50;
 SELECT Name AS student_name_belong_to_same_family
 FROM student_info
 WHERE Parent_contact_no = '23456789012';
-
-
-
-
-
-
-
-
