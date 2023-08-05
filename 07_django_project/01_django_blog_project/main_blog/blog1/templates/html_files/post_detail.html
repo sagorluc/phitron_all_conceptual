@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Blog Post Details{% endblock title %}
+{% block join_css %}
+<link rel="stylesheet" href="{% static 'css_files/post_detail.css' %}">
+{% endblock join_css %}
+{% block content %}
+
+<h1 style="text-align: center; margin: auto; color: green;">Blog Post Details</h1>
+
+<div class="post-entry">
+  
+    <h1>{{post.title}} </h1>
+    <h3>Body: {{post.body}} </h3>
+  
+</div>
+
+{% endblock content %}
